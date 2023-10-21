@@ -1,0 +1,88 @@
+#HomeContianer{
+    height: 460px;
+    width: 900px;
+    /* border: 1px solid rebeccapurple; */
+     border-radius: 20px;
+     
+    display: flex;
+}
+.HomeContact{
+    height: 100%;
+    width: 50%;
+    /* outline: 1px solid red; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ background-color: rgba(199,197,196, 0.7);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color: black;
+    padding: 50px 30px 50px 30px;
+    box-sizing: border-box;
+}
+.HomeContact h1{
+    font-size: 70px;
+    /* color: red; */
+}
+.HomeContact h2{
+    font-size: 50px;
+}
+.HomeContact h4{
+    font-size: 30px;
+    color: rgb(68, 66, 66);
+}
+.HomeContact .ButtonDiv{
+    height: 60px;
+    width: 100%;
+    /* outline: 1px solid red; */
+}
+.ButtonDiv .Sub_Button_Div{
+    height: 100%;
+    width: 70%;
+    /* outline: 1px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ButtonDiv .Sub_Button_Div  .Resume{
+    height: 70%;
+    width: 40%;
+    text-decoration: none;
+    color: black;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #CDCDCB;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.ButtonDiv .Sub_Button_Div .Resume_Download{
+    height: 70%;
+    width: 50%;
+    /* border: 1px solid black; */
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #CDCDCB;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.HomeImage{
+    height: 100%;
+    width: 50%;
+    /* outline: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.HomeImage img{
+    /* border: 1px solid red; */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

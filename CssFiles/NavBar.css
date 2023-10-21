@@ -1,0 +1,72 @@
+#NaveBAr_Main_Container{
+    height: 50px;
+    width: 1200px;
+    /* border: 1px solid red; */
+    display: flex;
+}
+.NaveBAr_Main_Sub_Container_Title{
+    height: 100%;
+    width: 30%;
+    /* outline: 1px solid wheat; */
+    display: flex;
+    align-items: center;
+}
+.NaveBAr_Main_Sub_Container_Title h1{
+    color: white;
+}
+.NaveBAr_Main_Sub_Container_NavBar{
+    height: 100%;
+    width: 70%;
+    /* outline: 1px solid wheat; */
+    display: flex;
+}
+.NavBar_navbar{
+    height: 100%;
+    width: 82%;
+    /* outline: 1px solid red; */
+}
+.NavBar_navbar ul{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.NavBar_navbar ul li{
+    /* outline: 1px solid white; */
+    list-style: none;
+}
+.NavBar_navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+.NavBar_navbar ul li a:hover{
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 17px;
+}
+.NavBar_Icons{
+    height: 100%;
+    width: 18%;
+    /* outline: 1px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: aqua; */
+}
+.NavBar_Icons div{
+    height: 60%;
+    width: 20%;
+    /* outline: 1px solid red; */
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    /* background-color: white; */
+    align-items: center;
+    box-shadow: 1px 2px 2px white;
+}
+/* .NavBar_Icons div .FaGoogle, .FaLinkDin, .FaGitHub{
+  -webkit-filter: drop-shadow(5px 5px 5px white);
+  filter: drop-shadow(2px 1px 2px white);
+  border: 1px solid red;
+} */

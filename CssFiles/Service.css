@@ -1,0 +1,30 @@
+.ServiceMainContainer{
+    height: 460px;
+    width: 900px;
+    /* border: 1px solid rebeccapurple; */
+    background-color: rgba(199,197,196, 0.7);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display:grid ;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px 30px;
+    /* padding: 10px; */
+    box-sizing: border-box;
+    /* overflow: scroll; */
+    
+}
+.ServiceMainContainer div{
+    /* border: 2px solid black; */
+    height: 100px;
+    width: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 30px;
+    flex-direction: column;
+    background-color: rgb(199,197,196);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
