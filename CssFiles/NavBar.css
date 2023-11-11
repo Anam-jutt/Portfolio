@@ -64,9 +64,15 @@
     /* background-color: white; */
     align-items: center;
     box-shadow: 1px 2px 2px white;
+    overflow: hidden;
 }
-/* .NavBar_Icons div .FaGoogle, .FaLinkDin, .FaGitHub{
-  -webkit-filter: drop-shadow(5px 5px 5px white);
-  filter: drop-shadow(2px 1px 2px white);
-  border: 1px solid red;
-} */
+
+.NavBar_Icons div a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
